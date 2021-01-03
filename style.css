@@ -664,6 +664,10 @@ footer {
   margin: 0.2rem 0;
 }
 
+.infoBox > a:hover {
+  transform: scale(1.01);
+}
+
 .informationContainer > .addressSocialMedia {
   height: 15rem;
   width: 20rem;
@@ -753,4 +757,35 @@ footer {
   > .socials
   > .linkedin {
   border-radius: 10px;
+}
+
+/* Footer of the Footer - Copyright */
+footer > .bottomInfo {
+  height: 2rem;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer > .bottomInfo > .copyright {
+  font-size: 1rem;
+  color: #5a5858;
+  margin-bottom: 1rem;
+}
+
+footer > .bottomInfo > .standardBtns {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+footer > .bottomInfo > .standardBtns > a {
+  font-size: 1rem;
+  color: #5a5858;
+  text-decoration: none;
 }
