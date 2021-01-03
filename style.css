@@ -1,0 +1,481 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Page 1 Design */
+.page1 {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(88, 172, 218, 0.3), rgba(88, 172, 218, 0.3)),
+    url(/img/lading-page-background-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* NAV Design */
+.page1 > nav {
+  height: 10vh;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.travelerLogo {
+  height: 70px;
+}
+
+/* Links */
+.page1 > nav > .links {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page1 > nav > .links > a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+
+/* Sign in & Register Buttons */
+.page1 > nav > .buttonsNav {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.page1 > nav > .buttonsNav > .btn {
+  height: 3rem;
+  width: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.page1 > nav > .buttonsNav > .register {
+  background: #0838bb;
+  box-shadow: 0px 0px 10px 1px rgb(192, 192, 192);
+}
+.page1 > nav > .buttonsNav > .signIn {
+  text-shadow: 0px 0px 40px black;
+  font-size: 1.3rem;
+}
+
+/* Hero Page 1 */
+.heroPage1 {
+  height: 90vh;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heroPage1 > h1 {
+  font-size: 4rem;
+  color: #ffffff;
+  margin: 3rem 0;
+}
+
+/* Search Container Design */
+.searchingCoponent {
+  margin: 3rem 0;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.searchingCoponent > .box {
+  height: 3.7rem;
+  width: 25rem;
+  background: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.searchingCoponent > .box > .icon {
+  height: 32px;
+  margin: 0 0 0 1rem;
+}
+
+.searchingCoponent > .box > input {
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  border: none;
+  background: none;
+  color: #697f9c;
+  font-weight: 800;
+}
+
+.searchingCoponent > .box > input:focus {
+  outline: none;
+}
+
+.searchingCoponent > .search {
+  background: #ff7424;
+  height: 4rem;
+  width: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.searchingCoponent > .search > .seachIcon {
+  height: 28px;
+  cursor: pointer;
+}
+
+/* Page 2 Design */
+.page2 {
+  height: 100vh;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* Right Side Design */
+.page2 > .rightSide {
+  background: coral;
+  height: 86%;
+  margin: auto 3rem auto 0;
+  width: 60%;
+  position: relative;
+}
+
+/* Right Image Blue */
+.page2 > .rightSide > .rightImage {
+  height: 100%;
+  width: 100%;
+}
+
+/* People Box */
+.page2 > .rightSide > .peopleBox {
+  height: 10rem;
+  width: auto;
+  position: absolute;
+  bottom: -3rem;
+  right: -6rem;
+  cursor: pointer;
+}
+
+/* Left Side - Text*/
+.leftSide {
+  width: 100%;
+  height: 86%;
+  margin: auto 0;
+}
+
+.leftSide > .exclusiveText {
+  font-size: 2rem;
+  line-height: 56px;
+  letter-spacing: 0.5rem;
+  color: #ff7424;
+}
+
+.leftSide > .bigText {
+  font-size: 3.8rem;
+  line-height: 123.19%;
+  color: #000000;
+}
+
+.leftSide > .smallText {
+  font-size: 1rem;
+  width: 50%;
+  color: #474747;
+  margin: 2rem 0;
+}
+
+.leftSide > .timeText {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+
+.leftSide > .footerPage2 {
+  width: 40%;
+  height: 3.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.leftSide > .footerPage2 > .bookNow {
+  background: #ff7424;
+  border-radius: 5px;
+  height: 100%;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.leftSide > .footerPage2 > .bookNow > .rightArrow {
+  height: 42px;
+}
+.leftSide > .footerPage2 > .bookNow > p {
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+.leftSide > .footerPage2 > .pricePage2 {
+  font-size: 1.6rem;
+  color: #ff7424;
+}
+
+/* PAGE 3 Design */
+.page3 {
+  height: 100vh;
+  width: 90%;
+
+  margin: 0 auto;
+}
+
+/* Orange Text */
+.page3 > .ourService {
+  font-size: 2rem;
+  line-height: 56px;
+  letter-spacing: 0.5rem;
+  color: #ff7424;
+}
+
+/* Middle Big Text + Swipe Arrows */
+.page3 > .textArrows {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page3 > .textArrows > .titleText {
+  font-size: 3.5rem;
+  line-height: 123.19%;
+}
+
+.page3 > .textArrows > .arrows {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.page3 > .textArrows > .arrows > .arrow {
+  height: 48px;
+}
+
+/* Boxes with Places */
+.boxContainer {
+  height: 72%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.locationBox {
+  height: 25rem;
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  cursor: pointer;
+}
+
+.locationBox > .placeImage {
+  height: 70%;
+  width: 100%;
+  box-shadow: 0px 0px 30px 0px rgb(175, 175, 175);
+  margin-bottom: 0.5rem;
+}
+
+.locationBox > .placeDescription {
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+}
+
+.locationBox > .placeDescription > .placeTitle {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 123.19%;
+}
+
+.locationBox > .placeDescription > .placeName {
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 123.19%;
+  color: #6e6e6e;
+  margin: 1rem 0;
+}
+
+.locationBox > .placeDescription > .placeStars {
+  height: 2rem;
+  width: 7rem;
+}
+
+.locationBox > .placePrice {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 1.3rem;
+  color: #ff7424;
+}
+
+/* Page 4 */
+.page4 {
+  height: 100vh;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* Right Side Page 4 */
+.page4 > .rightSide {
+  height: 80%;
+  width: 45%;
+  margin: auto 0;
+}
+
+.page4 > .rightSide .clientImage {
+  height: 100%;
+  width: 100%;
+}
+
+.page4 > .leftSide {
+  height: 70%;
+  margin: auto 2rem;
+}
+
+.page4 > .leftSide > .testimonial {
+  font-size: 2rem;
+  line-height: 56px;
+  letter-spacing: 0.5rem;
+  color: #ff7424;
+}
+
+.page4 > .leftSide > .clientTitle {
+  font-size: 3rem;
+  color: #000000;
+  margin: 1rem 0;
+}
+
+.page4 > .leftSide > .clientComment {
+  color: #3f3f3f;
+  font-size: 1.2rem;
+  width: 44%;
+  margin: 2rem 0;
+}
+
+.page4 > .leftSide > .clientProfile {
+  height: 4rem;
+  width: 12rem;
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+.page4 > .leftSide > .clientProfile > .clientProfileImage {
+  height: 100%;
+  width: 4rem;
+}
+
+.page4 > .leftSide > .clientProfile > .clientInfo {
+  height: 100%;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 0.5rem;
+}
+
+.page4 > .leftSide > .clientProfile > .clientInfo > .clientName {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.page4 > .leftSide > .clientProfile > .clientInfo > .clientJob {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #c1c1c1;
+}
+
+.page4 .leftSide > .clientSwipe {
+  height: 3.5rem;
+  width: 10rem;
+  display: flex;
+}
+
+.page4 .leftSide > .clientSwipe > .swipeLeft {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page4 .leftSide > .clientSwipe > .swipeLeft > .leftArrowSwipe {
+  height: 48px;
+  cursor: pointer;
+}
+
+.page4 .leftSide > .clientSwipe > .swipeRight {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page4 .leftSide > .clientSwipe > .swipeRight > .rightArrowSwipe {
+  height: 48px;
+  cursor: pointer;
+}
+
+/* PAGE 5 Design */
+.page5 {
+  height: 100vh;
+  width: 100%;
+}
+
+.page5 > .imagesContainer {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page5 > .imagesContainer > .image {
+  height: 90%;
+  margin: auto 0;
+  width: 23%;
+  object-fit: cover;
+}
+
+/* Newletter Container */
+.newsletterContainer {
+  background: #0838bb;
+  height: 15rem;
+  width: 58%;
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
