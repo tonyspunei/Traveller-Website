@@ -536,3 +536,221 @@
   border-radius: 10px;
   cursor: pointer;
 }
+
+/* PAGE 6 - Footer */
+footer {
+  background: #e5e5e5;
+  height: 50vh;
+  height: 100%;
+}
+
+.informationContainer {
+  width: 90%;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.informationContainer > .companyInfo {
+  height: 100%;
+}
+
+.informationContainer > .companyInfo > .logo {
+  height: 5rem;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.informationContainer > .companyInfo > .logo > .logoBlack {
+  object-fit: contain;
+}
+
+.informationContainer > .companyInfo > .contactOptions {
+  height: 7rem;
+  width: 100%;
+}
+
+.informationContainer > .companyInfo > .contactOptions > .email {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.informationContainer > .companyInfo > .contactOptions > .email > .emailIcon {
+  height: 100%;
+  width: auto;
+  padding: 1rem 1rem 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.informationContainer > .companyInfo > .contactOptions > .email > p {
+  font-size: 1.1rem;
+  color: #5a5858;
+}
+
+.informationContainer > .companyInfo > .contactOptions > .calling {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.informationContainer > .companyInfo > .contactOptions > .calling > .callIcon {
+  height: 100%;
+  width: auto;
+  padding: 1rem 1rem 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.informationContainer > .companyInfo > .contactOptions > .calling > p {
+  font-size: 1rem;
+  color: #5a5858;
+}
+
+.informationContainer > .companyInfo > .sendEmail {
+  height: 3rem;
+  margin: 2rem 0;
+  display: flex;
+}
+
+.informationContainer > .companyInfo > .sendEmail > .sendMain {
+  height: 100%;
+  width: 80%;
+  border: none;
+  background: #ffffff;
+  color: #5a5858;
+  font-size: 1.2rem;
+  padding-left: 1rem;
+  border-radius: 5px 0 0 5px;
+}
+
+.informationContainer > .companyInfo > .sendEmail > .joinBtn {
+  height: 100%;
+  width: 4rem;
+  background: #ff7424;
+  border-radius: 0 5px 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+/* Info Box Design */
+.infoBox {
+  display: flex;
+  flex-direction: column;
+  height: 15rem;
+  width: 15rem;
+}
+
+.infoBox > .infoTitle {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+
+.infoBox > a {
+  text-decoration: none;
+  color: #5a5858;
+  font-size: 1.2rem;
+  margin: 0.2rem 0;
+}
+
+.informationContainer > .addressSocialMedia {
+  height: 15rem;
+  width: 20rem;
+}
+
+.informationContainer > .addressSocialMedia > .addressBox {
+  /* background: rgb(93, 84, 5); */
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.informationContainer > .addressSocialMedia > .addressBox > .location {
+  display: flex;
+}
+
+.informationContainer > .addressSocialMedia > .addressBox > .infoTitle {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 0 0 0.5rem 0;
+}
+
+.informationContainer
+  > .addressSocialMedia
+  > .addressBox
+  > .location
+  > .mapIcon {
+  height: 2rem;
+  width: 2rem;
+  object-fit: contain;
+}
+
+.informationContainer > .addressSocialMedia > .addressBox > .location > p {
+  margin-left: 1rem;
+  color: #5a5858;
+  font-size: 1.1rem;
+}
+
+.informationContainer > .addressSocialMedia > .socialMedia {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.informationContainer > .addressSocialMedia > .socialMedia > .infoTitle {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 0 0 0.5rem 0;
+}
+
+.informationContainer > .addressSocialMedia > .socialMedia > .socials {
+  height: 3rem;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.informationContainer
+  > .addressSocialMedia
+  > .socialMedia
+  > .socials
+  > .socialIcon {
+  padding: 0.5rem;
+  height: 100%;
+  width: 3.3rem;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.informationContainer
+  > .addressSocialMedia
+  > .socialMedia
+  > .socials
+  > .socialIcon:hover {
+  fill: #ffffff;
+  background: #ff7424;
+}
+
+.informationContainer
+  > .addressSocialMedia
+  > .socialMedia
+  > .socials
+  > .linkedin {
+  border-radius: 10px;
+}
