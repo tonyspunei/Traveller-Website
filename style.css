@@ -789,3 +789,489 @@ footer > .bottomInfo > .standardBtns > a {
   color: #5a5858;
   text-decoration: none;
 }
+
+@media (max-width: 1400px) {
+  .searchingCoponent > .box {
+    width: 22rem;
+  }
+
+  .page4 > .rightSide > .clientImage {
+    object-fit: cover;
+  }
+
+  .boxContainer > .locationBox {
+    width: 22rem;
+    height: 22rem;
+  }
+
+  .page3 > .ourService {
+    font-size: 1.8rem;
+  }
+
+  .page3 > .titleText {
+    font-size: 3rem;
+  }
+
+  .informationContainer > .companyInfo > .sendEmail {
+    width: 15rem;
+    height: 2.8rem;
+  }
+}
+
+@media (max-width: 1260px) {
+  .searchingCoponent > .box {
+    width: 20rem;
+    height: 3rem;
+  }
+
+  .searchingCoponent > .search {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .informationContainer > .companyInfo > .logo > .logoBlack {
+    height: 4rem;
+    width: auto;
+  }
+
+  .informationContainer > .companyInfo > .contactOptions > .email > p {
+    font-size: 1rem;
+  }
+
+  .informationContainer > .companyInfo > .contactOptions > .email > .emailIcon {
+    height: 48px;
+  }
+
+  .informationContainer > .companyInfo > .contactOptions > .calling > p {
+    font-size: 1rem;
+  }
+
+  .informationContainer
+    > .companyInfo
+    > .contactOptions
+    > .calling
+    > .callIcon {
+    height: 48px;
+  }
+
+  .informationContainer > .infoBox > .infoTitle {
+    font-size: 1.2rem;
+  }
+
+  .informationContainer > .infoBox > a {
+    font-size: 1rem;
+  }
+
+  .informationContainer > .addressSocialMedia > .addressBox > .infoTitle {
+    font-size: 1.2rem;
+  }
+
+  .informationContainer
+    > .addressSocialMedia
+    > .addressBox
+    > .location
+    > .mapIcon {
+    height: 1.5rem;
+  }
+
+  .informationContainer > .addressSocialMedia > .addressBox > .location > p {
+    font-size: 0.9rem;
+  }
+
+  .informationContainer > .addressSocialMedia > .socialMedia > .infoTitle {
+    font-size: 1.2rem;
+  }
+
+  .informationContainer
+    > .addressSocialMedia
+    > .socialMedia
+    > .socials
+    > .socialIcon {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  footer > .bottomInfo > .copyright {
+    font-size: 0.8rem;
+  }
+
+  footer > .bottomInfo > .standardBtns > a {
+    font-size: 0.8rem;
+  }
+
+  .page5 .imagesContainer > .image {
+    height: 80%;
+  }
+
+  .page5 > .newsletterContainer {
+    height: 11rem;
+    width: 50%;
+  }
+
+  .page5 > .newsletterContainer > .newsletterTitle {
+    font-size: 2rem;
+    margin: 1rem 0 1rem 0;
+  }
+
+  .page5 > .newsletterContainer > .newletterSmallText {
+    font-size: 0.8rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .page5 > .newsletterContainer > .emailContainer {
+    width: 50%;
+  }
+
+  .page5 > .newsletterContainer > .emailContainer > input {
+    font-size: 0.8rem;
+  }
+
+  .page4 > .rightSide > .clientImage {
+    height: 80%;
+  }
+
+  .page4 > .leftSide > .testimonial {
+    font-size: 1.5rem;
+  }
+
+  .page4 > .leftSide > .clientTitle {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+  }
+
+  .page4 > .leftSide > .clientComment {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .searchingCoponent > .box {
+    width: 15rem;
+    height: 3rem;
+  }
+
+  .searchingCoponent > .box > input {
+    font-size: 0.8rem;
+  }
+
+  .page2 > .rightSide {
+    height: 80%;
+  }
+
+  .page2 > .leftSide > .exclusiveText {
+    font-size: 1.5rem;
+  }
+
+  .page2 > .leftSide > .bigText {
+    font-size: 3rem;
+  }
+
+  .page3 > .ourService {
+    font-size: 1.3rem;
+  }
+
+  .page3 > .textArrows > .titleText {
+    font-size: 3rem;
+  }
+
+  .page3 > .textArrows > .arrows > .arrow {
+    height: 32px;
+  }
+
+  .page3 > .boxContainer > .locationBox {
+    height: 18rem;
+    width: 18rem;
+  }
+
+  .page3 > .boxContainer > .locationBox > .placeDescription > .placeTitle {
+    font-size: 1rem;
+  }
+
+  .page3 > .boxContainer > .locationBox > .placeDescription > .placeName {
+    font-size: 0.6rem;
+  }
+
+  .page3 > .boxContainer > .locationBox > .placeDescription > .placeStars {
+    height: 1rem;
+    width: 5.5rem;
+  }
+
+  .page3 > .boxContainer > .locationBox > .placePrice {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 972px) {
+  .page1 > nav > .links > a {
+    font-size: 1rem;
+  }
+
+  .page2 > .rightSide {
+    height: 70%;
+  }
+
+  .page2 > .rightSide > .rightImage {
+    object-fit: cover;
+  }
+
+  .page2 > .leftSide {
+    margin: 6rem 2rem;
+  }
+
+  .page2 > .leftSide > .exclusiveText {
+    font-size: 1rem;
+  }
+
+  .page2 > .leftSide > .bigText {
+    font-size: 2rem;
+  }
+
+  .page2 > .leftSide > .smallText {
+    font-size: 0.8rem;
+  }
+
+  .page2 > .leftSide > .footerPage2 {
+    width: 60%;
+  }
+
+  .page3 > .boxContainer > .locationBox {
+    margin: 0 1rem;
+  }
+
+  .page4 > .rightSide {
+    width: 60%;
+  }
+
+  .page5 > .imagesContainer > .image {
+    height: 55%;
+  }
+
+  .page5 > .newsletterContainer {
+    height: 12rem;
+    width: 60%;
+  }
+}
+
+@media (max-width: 820px) {
+  .travelerLogo {
+    height: 60px;
+  }
+
+  .page1 > nav > .buttonsNav {
+    width: 25%;
+  }
+
+  .page1 > nav > .buttonsNav > .btn {
+    height: 2rem;
+    font-size: 1rem;
+  }
+
+  .page1 > .heroPage1 > h1 {
+    font-size: 3rem;
+  }
+
+  .page1 > .heroPage1 > .searchingCoponent > .box {
+    width: 12rem;
+  }
+
+  .page1 > .heroPage1 > .searchingCoponent > .box > .icon {
+    height: 22px;
+    margin: 0 0 0 0.5rem;
+  }
+
+  .page1 > .heroPage1 > .searchingCoponent > .box > input {
+    font-size: 0.6rem;
+  }
+
+  .page1 > .heroPage1 > .searchingCoponent > .search > .searchIcon {
+    height: 22px;
+  }
+
+  .page2 > .rightSide > {
+    margin: auto 2rem auto 0;
+  }
+
+  .page2 > .rightSide > .rightImage {
+    width: 20rem;
+  }
+
+  .page2 > .rightSide > .peopleBox {
+    height: 8rem;
+  }
+
+  .page2 > .leftSide {
+    margin: 6rem 1rem;
+  }
+
+  .page2 > .leftSide > .footerPage2 > .bookNow {
+    height: 3rem;
+    width: 8rem;
+  }
+
+  .page2 > .leftSide > .footerPage2 > .bookNow > p {
+    font-size: 1rem;
+  }
+
+  .page2 > .leftSide > .footerPage2 > .bookNow > .rightArrow {
+    height: 32px;
+  }
+
+  .page2 > .leftSide > .footerPage2 {
+    width: 80%;
+  }
+
+  .page2 > .leftSide > .smallText {
+    width: 18rem;
+  }
+
+  .page3 {
+    height: 150vh;
+  }
+
+  .page3 > .boxContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .page3 > .boxContainer > .locationBox {
+    margin: 1rem 1rem;
+  }
+
+  .page4 > .rightSide > .clientImage {
+    width: 20rem;
+  }
+
+  .page4 > .leftSide > .clientComment {
+    width: 20rem;
+  }
+
+  .page5 {
+    height: 140vh;
+  }
+
+  .page5 > .imagesContainer {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .page5 > .imagesContainer > .image {
+    margin: 2rem 2rem;
+    height: 16rem;
+    width: 20rem;
+  }
+
+  .page5 > .newsletterContainer {
+    margin: 4rem auto;
+    width: 80%;
+  }
+
+  footer > .informationContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  footer > .informationContainer > .addressSocialMedia > .socialMedia {
+    width: 15rem;
+  }
+
+  footer > .bottomInfo {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 770px) {
+  .page4 {
+    height: 110vh;
+    flex-wrap: wrap;
+  }
+
+  .page4 > .rightSide {
+    height: 20rem;
+    width: 100%;
+  }
+
+  .page4 > .rightSide > .clientImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .page4 > .leftSide {
+    margin: 2rem 2rem;
+  }
+
+  .page5 {
+    height: 210vh;
+    position: relative;
+  }
+
+  .page5 > .newsletterContainer {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+  }
+}
+
+@media (max-width: 711px) {
+  .page2 {
+    flex-wrap: wrap;
+    height: 115vh;
+  }
+
+  .page2 > .rightSide {
+    margin: 2rem 0;
+    height: 20rem;
+    width: 100%;
+  }
+
+  .page2 > .rightSide > .rightImage {
+    height: 100%;
+    width: 100%;
+  }
+
+  .page2 > .rightSide > .peopleBox {
+    right: 25%;
+  }
+
+  .page2 > .leftSide {
+    margin: 0rem 0rem;
+  }
+
+  .page2 > .leftSide > .footerPage2 {
+    width: 60%;
+  }
+
+  .page1 > .heroPage1 > .searchingCoponent {
+    flex-wrap: wrap;
+    height: 16rem;
+    justify-content: center;
+  }
+
+  .page1 > .heroPage1 > .searchingCoponent > .box {
+    margin: 0.5rem 1rem;
+    width: 100%;
+  }
+
+  .page1 > .heroPage1 > .searchingCoponent > .box > input {
+    font-size: 1.05rem;
+  }
+
+  .page1 > .heroPage1 > .searchingCoponent > .search {
+    width: 50%;
+    margin-bottom: 0.5rem;
+  }
+  .page3 {
+    height: 200vh;
+  }
+}
+
+@media (max-width: 670px) {
+  .page1 > nav > .links {
+    display: none;
+  }
+
+  .page1 > nav > .buttonsNav {
+    width: 50%;
+  }
+}
