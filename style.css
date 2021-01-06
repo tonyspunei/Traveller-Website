@@ -943,7 +943,7 @@ footer > .bottomInfo > .standardBtns > a {
     font-size: 1rem;
   }
 }
-
+/* 
 @media (max-width: 1100px) {
   .searchingCoponent > .box {
     width: 15rem;
@@ -1274,4 +1274,4 @@ footer > .bottomInfo > .standardBtns > a {
   .page1 > nav > .buttonsNav {
     width: 50%;
   }
-}
+} */
