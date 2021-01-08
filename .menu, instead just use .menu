@@ -1,0 +1,2 @@
+[mobile-responsive-design 9652cb3] solved the bug, it was because of the CSS, tip - if you design your menu don't use nav
+ 3 files changed, 15 insertions(+), 10 deletions(-)
