@@ -8,8 +8,9 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style-responsive.css" />
+
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-responsive.css" />
     <title>Traveler Webiste</title>
   </head>
   <body>
@@ -44,14 +45,23 @@
 
         <!-- Hamburger Menu -->
         <div class="hamburger">
-          <img src="" alt="" class="toggle" />
+          <img
+            src="/icons/Hamburger Icon.png"
+            alt=""
+            id="toggle"
+            class="toggle"
+          />
 
-          <div class="menu">
+          <div class="menu" id="menu">
             <a href="#">Trip</a>
             <a href="#">About Us</a>
             <a href="#">Hotel</a>
             <a href="#">News</a>
             <a href="#">Blog</a>
+
+            <!-- Register Buttons -->
+            <a href="#" class="btn">Sign in</a>
+            <a href="#" class="btn register">Register</a>
           </div>
         </div>
       </nav>
@@ -125,7 +135,7 @@
         <p class="timeText">3 days/ 4 Night</p>
 
         <!-- Star Icon -->
-        <img src="" alt="" class="starsIcon" />
+        <img src="/icons/starts-icon.png" alt="" class="starsIcon" />
 
         <!-- Footer - Book Now & Price -->
         <div class="footerPage2">
@@ -542,5 +552,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="/app.js"></script>
   </body>
 </html>

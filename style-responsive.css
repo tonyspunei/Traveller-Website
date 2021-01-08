@@ -1,1 +1,311 @@
+/* Hamburger Design */
+nav > .hamburger {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
 
+nav > .hamburger > .menu {
+  background: rgba(210, 105, 30, 0.507);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4rem;
+  visibility: hidden;
+}
+
+nav > .hamburger > .menu > a {
+  text-decoration: none;
+  font-size: 2rem;
+  margin: 1rem 0;
+  color: #ffffff;
+  font-weight: 800;
+}
+
+nav > .hamburger > .menu > .btn {
+  background: #ffffff;
+  height: 3rem;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: #000000;
+  font-size: 1.6rem;
+}
+
+nav > .hamburger > .menu > .register {
+  background: #0838bb;
+  color: #ffffff;
+}
+
+nav > .hamburger > .toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  height: 32px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.active {
+  visibility: visible;
+}
+
+/* Media Queries */
+@media (min-width: 360px) {
+  .page1 > nav > .links {
+    display: none;
+  }
+
+  .page1 > nav > .logo > a > .travelerLogo {
+    height: 40px;
+  }
+
+  .page1 > nav > .buttonsNav {
+    display: none;
+  }
+
+  /* Hero Page */
+  .heroPage1 > h1 {
+    font-size: 2.5rem;
+    margin: 3rem 0 1rem 0;
+  }
+
+  .heroPage1 > .searchingCoponent {
+    height: 30rem;
+    flex-direction: column;
+  }
+
+  .heroPage1 > .searchingCoponent > .box {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .heroPage1 > .searchingCoponent > .search {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .heroPage1 > .searchingCoponent > .search > .searchIcon {
+    height: 28px;
+  }
+
+  /* Page 2 DESIGN */
+  .page2 {
+    flex-direction: column;
+    height: 125vh;
+  }
+
+  .page2 > .rightSide {
+    height: 25rem;
+    width: 100%;
+    margin: 1rem auto;
+  }
+
+  .page2 > .rightSide > .peopleBox {
+    height: 7rem;
+    right: -1.1rem;
+    bottom: -2rem;
+  }
+
+  /* left side */
+  .page2 > .leftSide > .exclusiveText {
+    font-size: 1.2rem;
+  }
+
+  .page2 > .leftSide > .bigText {
+    font-size: 2rem;
+  }
+
+  .page2 > .leftSide > .smallText {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+
+  .page2 > .leftSide > .timeText {
+    font-size: 1.2rem;
+  }
+
+  .page2 > .leftSide > .starsIcon {
+    height: 21px;
+    margin-bottom: 1rem;
+  }
+
+  .page2 > .leftSide > .footerPage2 {
+    width: 100%;
+  }
+
+  .page2 > .leftSide > .footerPage2 > .bookNow {
+    height: 3rem;
+  }
+
+  .page2 > .leftSide > .footerPage2 > .pricePage2 {
+    font-size: 1.3rem;
+  }
+
+  /* Page 3 DESIGN */
+  .page3 {
+    height: 170vh;
+    padding-top: 2rem;
+  }
+
+  .page3 > .ourService {
+    font-size: 1.2rem;
+  }
+
+  .page3 > .textArrows {
+    height: 5rem;
+  }
+
+  .page3 > .textArrows > .titleText {
+    font-size: 2rem;
+  }
+
+  .page3 > .textArrows > .arrows {
+    display: none;
+  }
+
+  .page3 > .boxContainer {
+    flex-wrap: wrap;
+  }
+
+  .page3 > .boxContainer > .locationBox {
+    height: 20rem;
+    margin-top: 2rem;
+  }
+
+  .page3 > .boxContainer > .locationBox > .placeImage {
+    object-fit: cover;
+    height: 60%;
+  }
+
+  /* Page 4 DESIGN */
+  .page4 {
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  .page4 > .rightSide {
+    width: 100%;
+    margin-top: 1rem;
+    height: 40%;
+  }
+
+  .page4 > .rightSide > .clientImage {
+    height: 100%;
+  }
+
+  .page4 > .leftSide {
+    margin: 0;
+  }
+
+  .page4 > .leftSide .testimonial {
+    font-size: 1.2rem;
+  }
+
+  .page4 > .leftSide .clientTitle {
+    margin: 0;
+  }
+
+  .page4 > .leftSide .clientComment {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .page4 > .leftSide .clientProfile {
+    height: 3rem;
+  }
+
+  .page4 > .leftSide .clientProfile > .clientProfileImage {
+    width: 3rem;
+  }
+
+  .page4 > .leftSide .clientProfile > .clientInfo > .clientName {
+    font-size: 1rem;
+  }
+
+  .page4 > .leftSide .clientProfile > .clientInfo > .clientJob {
+    font-size: 0.8rem;
+  }
+
+  .page4 > .leftSide .clientSwipe {
+    width: 100%;
+    margin: 3rem 0;
+    justify-content: space-between;
+  }
+
+  .page4 > .leftSide .clientSwipe > .swipeLeft {
+    justify-content: flex-start;
+  }
+
+  .page4 > .leftSide .clientSwipe > .swipeRight {
+    justify-content: flex-end;
+  }
+
+  /* Page 5 DESIGN */
+  .page5 {
+    height: 350vh;
+  }
+
+  .page5 > .imagesContainer {
+    flex-direction: column;
+    height: 80%;
+  }
+
+  .page5 > .imagesContainer > .image {
+    margin: 1rem auto;
+    width: 90%;
+    height: 60%;
+  }
+
+  .page5 > .newsletterContainer {
+    margin: 2rem auto;
+    width: 90%;
+    height: 18rem;
+  }
+
+  .page5 > .newsletterContainer > .newsletterTitle {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .page5 > .newsletterContainer > .newletterSmallText {
+    width: 60%;
+    font-size: 0.9rem;
+  }
+
+  .page5 > .newsletterContainer > .emailContainer {
+    margin: 1rem auto;
+    width: 90%;
+  }
+
+  .page5 > .newsletterContainer > .emailContainer > .messageIcon {
+    padding: 0.8rem;
+  }
+
+  .page5 > .newsletterContainer > .emailContainer > input {
+    font-size: 1rem;
+  }
+
+  /* Footer DESIGN */
+  .informationContainer {
+    flex-direction: column;
+  }
+
+  footer > .bottomInfo > .copyright {
+    font-size: 0.6rem;
+  }
+
+  footer > .bottomInfo > .standardBtns {
+    width: 50%;
+  }
+
+  footer > .bottomInfo > .standardBtns > a {
+    font-size: 0.6rem;
+  }
+}
