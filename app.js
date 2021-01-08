@@ -1,6 +1,6 @@
 (function () {
-  let button = document.getElementById("toggle");
-  let menu = document.getElementById("menu");
+  let button = document.querySelector(".toggle");
+  let menu = document.querySelector(".menu");
 
   button.addEventListener("click", openClose);
 

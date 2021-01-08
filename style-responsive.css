@@ -1,5 +1,5 @@
 /* Hamburger Design */
-nav > .hamburger {
+/* nav > .hamburger {
   height: 100vh;
   width: 100%;
   position: absolute;
@@ -54,7 +54,7 @@ nav > .hamburger > .toggle {
 
 .active {
   visibility: visible;
-}
+} */
 
 /* Media Queries */
 @media (min-width: 360px) {
